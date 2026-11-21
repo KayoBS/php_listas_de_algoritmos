@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de 10 Alunos</title>
+    <script src="./funcs.js"></script>
+</head>
+
+<body>
+
+    <div class="card">
+        <h2 id="titulo-passo">Cadastro do 1º Aluno</h2>
+
+        <form id="form-cadastro" method="post" action="main.php">
+            <div id="campos-dinamicos"></div>
+
+            <label>Nome: </label><br />
+            <input type="text" id="input-nome" size="40" maxlength="40" required><br /><br />
+
+            <label>Matrícula: </label><br />
+            <input type="text" id="input-matricula" size="40" maxlength="10" required><br /><br />
+
+            <label>Endereço: </label><br />
+            <input type="text" id="input-endereco" size="40" maxlength="50" required><br /><br />
+
+            <label>Média Geral: </label><br />
+            <input type="number" id="input-media" size="40" min="0" max="10" step="0.1" required><br /><br />
+
+            <button type="button" id="btn-proximo" onclick="proximoAluno()">Próximo Aluno</button>
+        </form>
+    </div>
+</body>
+
+</html>

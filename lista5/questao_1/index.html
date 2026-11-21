@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <title>Cadastro de alunos</title>
+</head>
+
+<body>
+  <form name="cadastro_alunos" method="post" action="main.php">
+    <label>Nome: </label><br />
+    <input type="text" name="nome" size="40" maxlength="40"><br /><br />
+
+    <label>Matricula: </label><br />
+    <input type="text" name="matricula" size="40" maxlength="10"><br /><br />
+
+    <label>Endereco: </label><br />
+    <input type="text" name="endereco" size="40" maxlength="50"><br /><br />
+
+    <label>Media Geral: </label><br />
+    <input type="number" name="media_geral" size="40" maxlength="10" min="0" max="10" step="0.1"><br /><br />
+
+    <input type="submit" value="Enviar"><br />
+    <input type="reset" value="Limpar"><br />
+  </form>
+</body>
+
+</html>
