@@ -1,0 +1,20 @@
+<html>
+
+<head>
+  <title>Lojas Sua Melhor Compra</title>
+</head>
+
+<body>
+  <form name="f_compra" method="post" action="main.php">
+    <label>Valor da compra</label><br />
+    <input type="number" name="valor_compra" step="0.01" min="0" size="40" maxlength="3"><br /><br />
+
+    <label>Quantidade de parcelas (1 - à vista; 10 - máximo)</label><br />
+    <input type="number" name="parcelas" min="1" max="10" size="40" maxlength="2"><br /><br />
+
+    <input type="submit" value="Enviar"><br />
+    <input type="reset" value="Limpar"><br />
+  </form>
+</body>
+
+</html>

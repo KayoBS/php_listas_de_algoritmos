@@ -1,0 +1,23 @@
+<html>
+
+<head>
+  <title>Calculador gasto com cigarros</title>
+</head>
+
+<body>
+  <form name="f_cigarette_price" method="post" action="main.php">
+    <label> Quantos anos faz que você fuma?</label><br />
+    <input type="number" name="years_smoking" size="40" maxlength="3"><br /><br />
+
+    <label>Quantos cigarros você fuma por dia?</label><br />
+    <input type="number" name="cigarettes_per_day" size="40" maxlength="2"><br /><br />
+
+    <label>Qual o preço médio de cada cigarro que você fuma?</label><br />
+    <input type="number" name="cigarettes_price" step="0.01" min="0" size="40" maxlength="2"><br /><br />
+
+    <input type="submit" value="Enviar"><br />
+    <input type="reset" value="Limpar"><br />
+  </form>
+</body>
+
+</html>
